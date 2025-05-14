@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"@/*": ["./*"],
+			"@page/*": ["./page/*"],
+			"@layout/*": ["./layout/*"],
+			"@component/*": ["./component/*"],
+			"@store/*": ["./store/*"]
+		}
+	}
+}
