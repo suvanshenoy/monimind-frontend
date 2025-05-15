@@ -1,4 +1,4 @@
-import { Footer } from "@layout/Footer";
+import { Footer } from "@layout/index";
 import React from "react";
 import { FaGoogle } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";

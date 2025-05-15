@@ -1,8 +1,8 @@
-import React from "react";
-import { Navbar } from "@layout/Navbar";
 import { HomeCard } from "@component/HomeCard";
+import { Navbar } from "@layout/index";
+import React from "react";
+import { FaArrowsAltH, FaUniversity } from "react-icons/fa";
 import { GiPieChart } from "react-icons/gi";
-import { FaUniversity, FaArrowsAltH } from "react-icons/fa";
 
 const cardsData = [
 	{

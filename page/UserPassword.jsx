@@ -1,4 +1,4 @@
-import { Footer } from "@layout/Footer";
+// import { Footer } from "@layout/index";
 import React from "react";
 import { FaUniversity } from "react-icons/fa";
 import { NavLink } from "react-router";
