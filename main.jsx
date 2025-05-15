@@ -1,16 +1,23 @@
 import React, { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import "./style/global.css";
-import { BankComparison } from "@component/bank-comparison/BankComparison.jsx";
-import { CurrencyCalculator } from "@component/currency-calculator/CurrencyCalculator.jsx";
-import { Dashboard } from "@component/dashboard/Dashboard.jsx";
-import { Popup } from "@component/pop-up/Popup.jsx";
-import { AccountType } from "@page/AccountType.jsx";
-import { CreditCard } from "@page/CreditCard.jsx";
-import { Home } from "@page/Home.jsx";
-import { SignIn } from "@page/SignIn.jsx";
-import { SignUp } from "@page/SignUp.jsx";
-import { UserPassword } from "@page/UserPassword.jsx";
+
+import {
+	BankComparison,
+	CurrencyCalculator,
+	Dashboard,
+	Popup,
+} from "@component/index";
+
+import {
+	AccountType,
+	CreditCard,
+	Home,
+	SignIn,
+	SignUp,
+	UserPassword,
+} from "@page/index";
+
 import { Route, BrowserRouter as Router, Routes } from "react-router";
 
 const root = document.getElementById("root");
