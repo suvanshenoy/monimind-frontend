@@ -1,2 +1,2 @@
-export * from "@store/BudgetStore";
-export * from "@store/AnswerStore";
+export { useBudgetStore } from "@store/BudgetStore";
+export { useAnswerStore } from "@store/AnswerStore";
