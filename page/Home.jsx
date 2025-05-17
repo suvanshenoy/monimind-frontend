@@ -1,5 +1,5 @@
 import { HomeCard } from "@component/HomeCard";
-import { Navbar, Footer } from "@layout/index";
+import { Footer, Navbar } from "@layout/index";
 import React from "react";
 import { FaArrowsAltH, FaUniversity } from "react-icons/fa";
 import { GiPieChart } from "react-icons/gi";
