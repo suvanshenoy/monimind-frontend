@@ -1,6 +1,6 @@
 import React from "react";
 import { LiaUniversitySolid } from "react-icons/lia";
-// import { Banks, Resources, Tools } from "@/data";
+import { Banks, Resources, Tools } from "../data";
 import { FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 export function Footer() {

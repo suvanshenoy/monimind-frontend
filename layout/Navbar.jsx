@@ -19,9 +19,11 @@ export function Navbar() {
 			<div>
 				<div className="flex items-center gap-2">
 					<FaUniversity className="text-[#2563EB] w-[32px] h-[32px] ml-6" />
-					<h2 className="text-xl font-bold xl:mr-80">MoniMind</h2>
+					<Link to="/" className="text-xl font-bold xl:mr-80">
+						MoniMind
+					</Link>
 					<nav className="hidden sm:block lg:block">
-						<ul className="flex lg:justify-between items-center px-8 gap-20 text-[#4B5563]">
+						<ul className="flex items-center px-8 gap-8 text-[#4B5563]">
 							{navItems.map((item) => (
 								<li key={item.id}>
 									<Link
