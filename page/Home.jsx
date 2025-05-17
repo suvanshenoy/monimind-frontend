@@ -1,5 +1,5 @@
 import { HomeCard } from "@component/HomeCard";
-import { Navbar } from "@layout/index";
+import { Navbar, Footer } from "@layout/index";
 import React from "react";
 import { FaArrowsAltH, FaUniversity } from "react-icons/fa";
 import { GiPieChart } from "react-icons/gi";
@@ -24,20 +24,23 @@ const cardsData = [
 
 export function Home() {
 	return (
-		<main className="bg-[#F8FAFC] w-screen min-h-[100vh] md:h-screen  flex flex-col items-center overflow-x-hidden">
+		<>
 			<Navbar />
-			<h1 className="text-xl md:text-3xl lg:text-4xl font-bold mt-20 mb-10  text-center xl:w-[900px]">
-				Compare Canadian Banks for Students
-			</h1>
-			<p className="text-[#4B5563] mb-20 text-center xl:w-[900px] ">
-				Make informed financial decisions with our comprehensive comparison
-				tools
-			</p>
-			<div className="flex flex-col xl:flex-row  gap-10 xl:gap-4 mb-6">
-				{cardsData.map((card, index) => (
-					<HomeCard key={index} {...card} />
-				))}
-			</div>
-		</main>
+			<main className="bg-[#F8FAFC] w-screen min-h-[100vh] md:h-screen  flex flex-col items-center overflow-x-hidden">
+				<h1 className="text-xl md:text-3xl lg:text-4xl font-bold mt-20 mb-10  text-center xl:w-[900px]">
+					Compare Canadian Banks for Students
+				</h1>
+				<p className="text-[#4B5563] mb-20 text-center xl:w-[900px] ">
+					Make informed financial decisions with our comprehensive comparison
+					tools
+				</p>
+				<div className="flex flex-col xl:flex-row  gap-10 xl:gap-4 mb-6">
+					{cardsData.map((card, index) => (
+						<HomeCard key={index} {...card} />
+					))}
+				</div>
+			</main>
+			<Footer />
+		</>
 	);
 }
